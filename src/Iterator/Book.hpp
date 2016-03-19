@@ -5,14 +5,11 @@
 
 class Book {
     std::string name;
+
 public:
     Book(const std::string &name = "") : name(name) {}
 
-    std::string getName() const {
-        return name;
-    }
-
+    std::string getName() const { return name; }
 };
 
 #endif
-

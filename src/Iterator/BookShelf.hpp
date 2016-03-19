@@ -9,26 +9,18 @@
 class BookShelf : public Aggregate<Book> {
     std::vector<Book> books;
     int last;
+
 public:
-    BookShelf(int maxsize) : last(0) {
-        books.resize(maxsize);
-    }
+    BookShelf(int maxsize) : last(0) { books.resize(maxsize); }
     ~BookShelf() = default;
 
-    Book getBookAt(int index) const {
-        return books[index];
-    }
+    Book getBookAt(int index) const { return books[index]; }
 
-    void appendBook(const Book &book) {
-        books[last++] = book;
-    }
+    void appendBook(const Book &book) { books[last++] = book; }
 
-    int getLength() {
-        return last;
-    }
+    int getLength() { return last; }
 
     std::unique_ptr<Iterator<Book>> iterator();
 };
 
 #endif
-

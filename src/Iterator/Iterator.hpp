@@ -1,7 +1,7 @@
 #ifndef ITERATOR_HPP
 #define ITERATOR_HPP
 
-template<class T>
+template <class T>
 class Iterator {
 public:
     virtual bool hasNext() = 0;
@@ -10,4 +10,3 @@ public:
 };
 
 #endif
-
