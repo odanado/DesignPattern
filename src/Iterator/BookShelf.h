@@ -1,17 +1,14 @@
-#ifndef BOOKSHELF_HPP
-#define BOOKSHELF_HPP
+#ifndef SRC_ITERATOR_BOOKSHELF_H_
+#define SRC_ITERATOR_BOOKSHELF_H_
 
 #include <vector>
 
-#include "Aggregate.hpp"
-#include "Book.hpp"
+#include "Aggregate.h"
+#include "Book.h"
 
 class BookShelf : public Aggregate<Book> {
-    std::vector<Book> books;
-    int last;
-
-public:
-    BookShelf(int maxsize) : last(0) { books.resize(maxsize); }
+ public:
+    explicit BookShelf(int maxsize) : last(0) { books.resize(maxsize); }
     ~BookShelf() = default;
 
     Book getBookAt(int index) const { return books[index]; }
@@ -21,6 +18,10 @@ public:
     int getLength() { return last; }
 
     std::unique_ptr<Iterator<Book>> iterator();
+
+ private:
+    std::vector<Book> books;
+    int last;
 };
 
-#endif
+#endif  // SRC_ITERATOR_BOOKSHELF_H_
