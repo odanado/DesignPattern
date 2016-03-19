@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 
-#include "../../src/Iterator/BookShelf.h"
+#include "../src/BookShelf.h"
 
 class BookShelfTest : public ::testing::Test {
  protected:
