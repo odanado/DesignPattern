@@ -5,5 +5,5 @@ include_directories(../../tools)
 
 add_subdirectory(../src src)
 add_subdirectory(../../tools/gtest gtest)
-add_executable(IteratorTest BookShelfTest.cpp)
+add_executable(IteratorTest BookShelfTest.cpp BookShelfIteratorTest.cpp)
 target_link_libraries(IteratorTest Iterator gtest)
