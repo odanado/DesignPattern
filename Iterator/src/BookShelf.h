@@ -1,5 +1,5 @@
-#ifndef SRC_ITERATOR_BOOKSHELF_H_
-#define SRC_ITERATOR_BOOKSHELF_H_
+#ifndef ITERATOR_SRC_BOOKSHELF_H_
+#define ITERATOR_SRC_BOOKSHELF_H_
 
 #include <vector>
 
@@ -24,4 +24,4 @@ class BookShelf : public Aggregate<Book> {
     int last;
 };
 
-#endif  // SRC_ITERATOR_BOOKSHELF_H_
+#endif  // ITERATOR_SRC_BOOKSHELF_H_

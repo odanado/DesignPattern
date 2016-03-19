@@ -1,5 +1,5 @@
-#ifndef SRC_ITERATOR_ITERATOR_H_
-#define SRC_ITERATOR_ITERATOR_H_
+#ifndef ITERATOR_SRC_ITERATOR_H_
+#define ITERATOR_SRC_ITERATOR_H_
 
 template <class T>
 class Iterator {
@@ -9,4 +9,4 @@ class Iterator {
     virtual ~Iterator() = default;
 };
 
-#endif  // SRC_ITERATOR_ITERATOR_H_
+#endif  // ITERATOR_SRC_ITERATOR_H_

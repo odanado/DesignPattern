@@ -1,5 +1,5 @@
-#ifndef SRC_ITERATOR_BOOKSHELFITERATOR_H_
-#define SRC_ITERATOR_BOOKSHELFITERATOR_H_
+#ifndef ITERATOR_SRC_BOOKSHELFITERATOR_H_
+#define ITERATOR_SRC_BOOKSHELFITERATOR_H_
 
 #include "Iterator.h"
 #include "Book.h"
@@ -21,4 +21,4 @@ class BookShelfIterator : public Iterator<Book> {
     int index;
 };
 
-#endif  // SRC_ITERATOR_BOOKSHELFITERATOR_H_
+#endif  // ITERATOR_SRC_BOOKSHELFITERATOR_H_

@@ -1,5 +1,5 @@
-#ifndef SRC_ITERATOR_BOOK_H_
-#define SRC_ITERATOR_BOOK_H_
+#ifndef ITERATOR_SRC_BOOK_H_
+#define ITERATOR_SRC_BOOK_H_
 
 #include <string>
 
@@ -12,4 +12,4 @@ class Book {
     std::string name;
 };
 
-#endif  // SRC_ITERATOR_BOOK_H_
+#endif  // ITERATOR_SRC_BOOK_H_

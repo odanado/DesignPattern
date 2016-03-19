@@ -1,5 +1,5 @@
-#ifndef SRC_ITERATOR_AGGREGATE_H_
-#define SRC_ITERATOR_AGGREGATE_H_
+#ifndef ITERATOR_SRC_AGGREGATE_H_
+#define ITERATOR_SRC_AGGREGATE_H_
 
 #include <memory>
 #include "Iterator.h"
@@ -11,4 +11,4 @@ class Aggregate {
     virtual std::unique_ptr<Iterator<T>> iterator() = 0;
 };
 
-#endif  // SRC_ITERATOR_AGGREGATE_H_
+#endif  // ITERATOR_SRC_AGGREGATE_H_
