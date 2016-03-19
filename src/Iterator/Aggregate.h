@@ -2,7 +2,7 @@
 #define SRC_ITERATOR_AGGREGATE_H_
 
 #include <memory>
-#include "iterator.h"
+#include "Iterator.h"
 
 template <class T>
 class Aggregate {
