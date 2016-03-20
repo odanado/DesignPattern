@@ -1,4 +1,5 @@
 # DesignPattern  
+[![Build Status](https://travis-ci.org/odanado/DesignPattern.svg?branch=master)](https://travis-ci.org/odanado/DesignPattern)  
 練習のために[増補改訂版Java言語で学ぶデザインパターン入門](http://www.hyuki.com/dp/)をC++で書く  
 意識することとして  
  - テストを書く
